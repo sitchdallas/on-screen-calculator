@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     background-color: rgba(218, 134, 95, 0.699);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 p {
@@ -29,7 +29,7 @@ p {
     gap: 1px;
 }
 
-.display {
+#display {
     grid-column: 1 / -1;
     background-color: #b2b9b700;
     display: flex;
@@ -41,6 +41,7 @@ p {
     font-weight: initial;
     text-shadow: 1.3px 1.3px #383838;
     margin: 5px;
+    height: 10vh;
 }
 
 button {
